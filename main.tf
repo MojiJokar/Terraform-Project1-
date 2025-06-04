@@ -44,9 +44,9 @@ module "rds" {
   namespace   = var.namespace
   vpc_id      = module.networking.vpc.vpc_id
   subnet_ids  = module.networking.vpc.private_subnets
-  db_name     = "wordpress_db"
-  db_username = "datascientest-student"
-  db_password = "Datascientest@2024"
+  db_name     = var.db_name
+  db_username = var.db_username
+  db_password = var.db_password
 }
 
 
