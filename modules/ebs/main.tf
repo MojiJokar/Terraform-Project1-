@@ -9,8 +9,9 @@ resource "aws_ebs_volume" "data_volume" {
 }
 
 
+
 # modules/ebs/variables.tf
-variable "namespace" {}
-variable "availability_zone" {}
-variable "size" { default = 10 }
-variable "type" { default = "gp2" }
+#variable "namespace" {}
+#variable "availability_zone" {}
+#variable "size" { default = 10 }
+#variable "type" { default = "gp2" }
